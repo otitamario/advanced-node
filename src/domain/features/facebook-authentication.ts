@@ -6,7 +6,7 @@ export interface FacebookAuthentication {
 
 }
 
-namespace FacebookAuthentication{
+export namespace FacebookAuthentication{
   export type Params = {
     token: string
   }
